@@ -1,0 +1,26 @@
+#section-1 {
+    background-image: url("../images/S1BG.jpg");
+    background-position: top;
+}
+
+#section-2 {
+    background-color: #F0776D;
+}
+
+#section-3 {
+    background-color: #41E049;
+}
+
+#section-4 {
+    background-color: #3B97F7;
+}
+
+#heading-main{
+    font-size: 20vh;
+    font-family: 'Indie Flower', cursive;
+}
+
+#sub-heading-main{
+    font-size: 10vh;
+    font-family: 'Zilla Slab', serif;
+}
