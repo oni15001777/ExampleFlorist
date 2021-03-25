@@ -3,8 +3,30 @@
     background-position: top;
 }
 
+.nav-link {
+    font-family: 'Sriracha', cursive;
+    font-size: 3vh;
+}
+
 .navbar-brand {
     font-family: 'Indie Flower', cursive;
+    font-size: 3vh;
+}
+
+.carousel-item {
+    height: 100vh;
+}
+
+.carousel-item img{
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+.section
+{
+    padding-top: 8vh ;
+    height: 100vh;
 }
 
 #section-2 {
@@ -12,11 +34,17 @@
 }
 
 #section-3 {
-    background-color: #41E049;
+    background-color: #F5DDAE;
 }
 
 #section-4 {
-    background-color: #3B97F7;
+    background-color: #F5CAC8;
+}
+
+.img-pos
+{
+    object-fit: cover;
+    object-position: center;
 }
 
 #heading-main{
