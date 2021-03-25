@@ -3,6 +3,10 @@
     background-position: top;
 }
 
+.navbar-brand {
+    font-family: 'Indie Flower', cursive;
+}
+
 #section-2 {
     background-color: #F0776D;
 }
