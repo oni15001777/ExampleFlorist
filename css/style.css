@@ -1,8 +1,3 @@
-#section-1 {
-    background-image: url("../images/S1BG.jpg");
-    background-position: top;
-}
-
 .nav-link {
     font-family: 'Sriracha', cursive;
     font-size: 3vh;
@@ -26,7 +21,11 @@
 .section
 {
     padding-top: 8vh ;
-    height: 100vh;
+    min-height: 100vh;
+}
+#section-1 {
+    background-image: url("../images/S1BG.jpg");
+    background-position: top;
 }
 
 #section-2 {
@@ -48,11 +47,29 @@
 }
 
 #heading-main{
-    font-size: 20vh;
+    font-size: 25vh;
     font-family: 'Indie Flower', cursive;
 }
 
+@media only screen
+and (max-device-width: 1000px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    #heading-main{
+        margin-top: 25vh;
+        font-size: 7vh;
+        font-family: 'Indie Flower', cursive;
+    }
+}
+
 #sub-heading-main{
-    font-size: 10vh;
+    font-size: 15vh;
     font-family: 'Zilla Slab', serif;
+}
+@media only screen
+and (max-device-width: 1000px)
+and (-webkit-min-device-pixel-ratio: 2) {
+    #sub-heading-main{
+        font-size: 5vh;
+        font-family: 'Zilla Slab', serif;
+    }
 }
